@@ -59,7 +59,6 @@ namespace MomoThePugsocket.Modules
                 var message = MessageBuilder.buildString(result);
                 context.Send(message);
             } while (context.IsAlive);
-            window.write("---- DISCONNECTED---");
         }
     }
 }

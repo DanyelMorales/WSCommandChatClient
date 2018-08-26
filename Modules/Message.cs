@@ -16,7 +16,7 @@ namespace MomoThePugsocket.Modules
     };
 
     /**
-     * Command helper for setting/getting
+     * Command container 
      */
     public class SimpleCommand : ICommand<SimpleCommands>
     {
@@ -26,7 +26,7 @@ namespace MomoThePugsocket.Modules
 
 
     /**
-     * Simple cojo for message setting/getting
+     * Message container
      */
     public class Message
     {
